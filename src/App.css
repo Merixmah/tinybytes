@@ -1,0 +1,138 @@
+.App {
+  max-width: 2560px;
+  text-align: center;
+  background-color: #161616;
+  font-family: "Courier New";
+  color: #ff4c29;
+}
+
+.globalnavigation {
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: stretch;
+  background-color: #ff4c29;
+  padding-top: 10px;
+  font-family: "Courier New";
+  color: #161616;
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 900px;
+  margin-left: 310px;
+}
+.navi {
+  padding-top: 17px;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.bund {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #efefef;
+  height: 250px;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.Titel {
+  font-size: 50px;
+  font-weight: 100;
+  padding-top: 100px;
+}
+
+/* ------- Home -------- */
+.Hometekst {
+  height: 400px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 30px;
+  color: #efefef;
+}
+.missiontekst {
+  background: #efefef;
+  height: 300px;
+  padding-top: 20px;
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 2%;
+}
+
+.ikoner {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tekstikoner {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+.snaktekst {
+  padding-top: 170px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Courier New";
+  font-weight: 400;
+}
+
+/* ------- Tips og Tricks -------- */
+.ikon4 {
+  width: 200px;
+}
+.tip1 {
+  display: flex;
+  justify-content: space-between;
+  color: #efefef;
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.tip2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  color: #efefef;
+  width: 1100px;
+  margin: 0 auto;
+}
+.tiptekst {
+  width: 900px;
+  text-align: left;
+  font-size: 20px;
+  color: #efefef;
+}
+
+/* ------- Hvorfor os -------- */
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.boxtekst {
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #efefef;
+  height: 500px;
+  font-size: 18px;
+  border-radius: 10%;
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ------- Kontakt os -------- */
+.Teksttype {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 30px;
+}
